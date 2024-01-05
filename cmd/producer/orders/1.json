@@ -1,0 +1,62 @@
+{
+  "order_uid": "b563feb7b2b84b6test1",
+  "track_number": "WBILMTESTTRACK1",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Alice",
+    "phone": "+9876543210",
+    "zip": "54321",
+    "city": "Saint-Petersburg",
+    "address": "Ploshad Mira 456",
+    "region": "Saint-Petersburg",
+    "email": "alice@wb.ru"
+  },
+  "payment": {
+    "transaction": "b563feb7b2b84b6test1",
+    "request_id": "",
+    "currency": "RUB",
+    "provider": "wbpay",
+    "amount": 3000,
+    "payment_dt": 1641358127,
+    "bank": "Alpha Bank",
+    "delivery_cost": 1200,
+    "goods_total": 1800,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 9934932,
+      "track_number": "WBILMTESTTRACK1",
+      "price": 600,
+      "rid": "ab4219087a764ae0btest1",
+      "name": "Sneakers",
+      "sale": 0,
+      "size": "42",
+      "total_price": 600,
+      "nm_id": 2389214,
+      "brand": "ABC",
+      "status": 202
+    },
+    {
+      "chrt_id": 9934933,
+      "track_number": "WBILMTESTTRACK1",
+      "price": 1200,
+      "rid": "ab4219087a764ae0btest3",
+      "name": "Jackets",
+      "sale": 10,
+      "size": "L",
+      "total_price": 1200,
+      "nm_id": 2389215,
+      "brand": "XYZ",
+      "status": 202
+    }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "test",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 99,
+  "date_created": "2022-12-20T15:30:45Z",
+  "oof_shard": "1"
+}

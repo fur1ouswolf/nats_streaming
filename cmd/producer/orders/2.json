@@ -1,0 +1,49 @@
+{
+  "order_uid": "b563feb7b2b84b6test2",
+  "track_number": "WBILMTESTTRACK2",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Bob",
+    "phone": "+1234567890",
+    "zip": "12345",
+    "city": "Moscow",
+    "address": "Ploshad Mira 123",
+    "region": "Moscow",
+    "email": "bob@wb.ru"
+  },
+  "payment": {
+    "transaction": "b563feb7b2b84b6test2",
+    "request_id": "",
+    "currency": "USD",
+    "provider": "wbpay",
+    "amount": 2000,
+    "payment_dt": 1641357527,
+    "bank": "WBank",
+    "delivery_cost": 1500,
+    "goods_total": 500,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 9934931,
+      "track_number": "WBILMTESTTRACK2",
+      "price": 300,
+      "rid": "ab4219087a764ae0btest2",
+      "name": "T-shirts",
+      "sale": 50,
+      "size": "M",
+      "total_price": 150,
+      "nm_id": 2389213,
+      "brand": "Brand",
+      "status": 202
+    }
+  ],
+  "locale": "ru",
+  "internal_signature": "",
+  "customer_id": "test",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 99,
+  "date_created": "2023-12-15T10:45:30Z",
+  "oof_shard": "1"
+}
